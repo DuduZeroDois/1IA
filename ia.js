@@ -1,4 +1,4 @@
-const AK = 'AIzaSyDBOXeENqnnwP20VALOubunAYKxZB7d5Ig'
+const AK = 'COLOQUE SUA CHAVE AQUI'
 
 export async function CALL(mensagem) {
     const response = await fetch(`https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${AK}`, {
