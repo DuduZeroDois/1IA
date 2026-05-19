@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>1IA</title>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="UI"><div id="title">#1 IA</div>
+    <div id="chatContainer">
+        <div id="chat"></div>
+        <div id="InputC"><input type="text" id="chatInput" placeholder="Fala ou cale-se para sempre">
+            <button id="EnviarB">Enviar</button>
+        </div>
+    </div>
+</div>
+
+<script type="importmap">
+        {
+        "imports": {
+            "three": "https://unpkg.com/three@0.152.2/build/three.module.js"
+    }}
+</script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
